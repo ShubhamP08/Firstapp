@@ -6,7 +6,7 @@ class homepage extends StatelessWidget {
     int day = 13;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Gamer"),
+        title: Text("Tryingout Somethin"),
       ),
       body: Center(
         child: Container(child: Text("Welcome to Flutter $day")),
