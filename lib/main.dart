@@ -1,4 +1,4 @@
-import 'package:first/screens/2ndLogin_page.dart';
+import 'package:first/Utils/routes.dart';
 import 'package:first/screens/home_page.dart';
 import 'package:first/screens/login_page.dart';
 import 'package:flutter/material.dart';
@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
           primaryTextTheme: GoogleFonts.latoTextTheme()),
       darkTheme: ThemeData(brightness: Brightness.dark),
       routes: {
-        // "/": (context) => loginpage(),
         "/": (context) => loginpage(),
-        //  "/": (context) => Loginp(),
+        Myroutes.LoginRoute: (context) => loginpage(),
+        Myroutes.HomeRoute: (context) => homepage(),
       },
     );
   }
