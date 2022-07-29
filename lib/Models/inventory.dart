@@ -13,6 +13,11 @@ class Item {
 
 final products = [
   Item(
-    id: 
+    id: "prd01",
+    name: "Iphone 13 Pro Max",
+    desc: "Apple Iphone 13th Generation",
+    price: 129000,
+    color: "#33505a",
+    img: "https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg",
   )
-]
+];
