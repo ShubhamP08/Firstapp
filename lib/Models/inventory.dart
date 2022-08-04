@@ -1,21 +1,29 @@
+class CatelogModel {
+  static final products = [
+    Item(
+      id: 1,
+      name: "iphone 13 Pro Max",
+      desc: "Apple iphone 13th Generation",
+      price: 999,
+      color: "#33505a",
+      img: "https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg",
+    )
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
-  final num price;
+  final int price;
   final String color;
   final String img;
 
-  Item({this.id, this.name, this.desc, this.price, this.color, this.img});
-}
-
-final products = [
   Item(
-    id: "prd01",
-    name: "Iphone 13 Pro Max",
-    desc: "Apple Iphone 13th Generation",
-    price: 129000,
-    color: "#33505a",
-    img: "https://m.media-amazon.com/images/I/61i8Vjb17SL._SL1500_.jpg",
-  )
-];
+      {required this.id,
+      required this.name,
+      required this.desc,
+      required this.price,
+      required this.color,
+      required this.img});
+}
