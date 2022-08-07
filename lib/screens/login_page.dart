@@ -72,7 +72,7 @@ class _loginpageState extends State<loginpage> {
                       hintText: "Enter Password", labelText: "Enter Password"),
                   validator: (value) {
                     if (value!.isEmpty) {
-                      return "Invalid Username";
+                      return "Invalid Password";
                     } else if (value.length < 8) {
                       return "Password length Should be 8";
                     }

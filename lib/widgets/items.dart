@@ -13,10 +13,10 @@ class ItemWidget extends StatelessWidget {
       shape: StadiumBorder(),
       elevation: 1.5,
       child: ListTile(
-        leading: Image.network(item.img),
+        leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
-        trailing: Text("\$${item.price}",
+        trailing: Text("\u{20B9} ${item.price}",
         textScaleFactor: 1.5,
         style: TextStyle(
           color: Colors.cyan,

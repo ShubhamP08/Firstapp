@@ -1,0 +1,52 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"iPhone 13 Pro Max",
+            "desc":"APPLE iPhone 13th generation",
+            "price":129000,
+            "color":"#33505a",
+            "image":"https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_GEO_09142021_inline.jpg.slideshow-large_2x.jpg"
+        },
+        {
+            "id":2,
+            "name":"iPhone 13 Pro",
+            "desc":"APPLE iPhone 13th generation",
+            "price":113900,
+            "color":"#33505a",
+            "image":"https://cellbuddy.in/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-Smartphones-491997731-i-2-1200Wx1200H.jpeg"
+        },
+        {
+            "id":3,
+            "name":"iPhone 13",
+            "desc":"APPLE iPhone 13th generation",
+            "price":68900,
+            "color":"#33505a",
+            "image":"https://www.reliancedigital.in/medias/Apple-MLPF3HN-A-Smart-Phones-491997699-i-3-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNTM3NTF8aW1hZ2UvanBlZ3xpbWFnZXMvaGJjL2gyYS85Nzc2MDM5MTAwNDQ2LmpwZ3wxMTQ1ODYwOWU4OTk3ZmM4Y2ZjYzQ4MWUwNTIyMTU2NzVkYTdlOWE4ZWMxN2RiYzc1MTJmNzZkNzRhYzhlZDgx"
+        },
+        {
+            "id":4,
+            "name":"iPad Pro",
+            "desc":"The ultimate iPad experience",
+            "price":71900,
+            "color":"#33505a",
+            "image":"https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipad/ipad/2021-ipad-pro-12-9-colors.png"
+        },
+        {
+            "id":5,
+            "name":"iPad Air ",
+            "desc":"Powerful, Colourful, Wonderful.",
+            "price":54900,
+            "color":"#33505a",
+            "image":"https://lifemobile.lk/wp-content/uploads/2022/04/Apple-iPad-Air-5-2022-10.9-5th-Gen-WiFi-64GB-1.jpg"
+        },
+        {
+            "id":6,
+            "name":"iPad",
+            "desc":"Delightfully capable, Suprisingly Affordable",
+            "price":30900,
+            "color":"#33505a",
+            "image":"https://m.media-amazon.com/images/I/61NGnpjoRDL._SL1500_.jpg"
+        } 
+    ]
+}
