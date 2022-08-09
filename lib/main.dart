@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => loginpage(),
         Myroutes.LoginRoute: (context) => loginpage(),
         Myroutes.HomeRoute: (context) => homepage(),
+        //Myroutes.HomeDetail:(context) => 
       },
       debugShowCheckedModeBanner: false,
     );
