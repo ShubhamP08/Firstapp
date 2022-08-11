@@ -45,9 +45,12 @@ class HomeDetailPage extends StatelessWidget {
               width: context.screenWidth,
               child: Column(
                 children: [
-                   catalog.name.text.xl4.color(Mytheme.darkBluish).bold.make(),
-            catalog.desc.text.textStyle(context.captionStyle).lg.make(),
-            10.heightBox,
+                  catalog.name.text.xl4.color(Mytheme.darkBluish).bold.make(),
+                  catalog.desc.text.textStyle(context.captionStyle).lg.make(),
+                  //5.heightBox,
+                  catalog.detail.text.textStyle(context.captionStyle).lg.make(),
+
+            //"Super Retina XDR Display\n5G Enabled Phone\nA15 Bionic Chip\n17 cm (6.7 inch) all-screen OLED Display\nPro 12 MP Camera System: Telephoto, Wide and Ultra Wide Cameras".text.make()
                 ],
 
               ).py64(),

@@ -6,7 +6,8 @@
             "desc":"APPLE iPhone 13th generation",
             "price":129000,
             "color":"#33505a",
-            "image":"https://static.toiimg.com/thumb/resizemode-4,msid-79729978,imgsize-200,width-1200/79729978.jpg"
+            "image":"https://static.toiimg.com/thumb/resizemode-4,msid-79729978,imgsize-200,width-1200/79729978.jpg",
+            "detail":"Super Retina XDR Display\n5G Enabled Phone\nA15 Bionic Chip\n17 cm (6.7 inch) all-screen OLED Display\nPro 12 MP Camera System: Telephoto, Wide and Ultra Wide Cameras"
         },
         {
             "id":2,
@@ -14,7 +15,8 @@
             "desc":"APPLE iPhone 13th generation",
             "price":113900,
             "color":"#33505a",
-            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-01.jpg"
+            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-01.jpg",
+            "detail":"Display: 6.1 inches (15.49 cm), Super Retina XDR OLED, 120 Hz Refresh Rate\nMemory: 256GB ROM\nProcessor: Apple A15 Bionic, Hexa Core\nCamera: 12 MP + 12 MP + 12 MP Triple Rear & 12 MP Front Camera"
         },
         {
             "id":3,
@@ -22,7 +24,8 @@
             "desc":"APPLE iPhone 13th generation",
             "price":68900,
             "color":"#33505a",
-            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg"
+            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg",
+            "detail":"Display: 6.1 inches (15.4 cm), Super Retina XDR OLED\nMemory: 128GB ROM\nProcessor: Apple A15 Bionic, Hexa Core\nCamera: 12 MP + 12 MP Dual Rear & 12 MP Front Camera"
         },
         {
             "id":4,
@@ -30,7 +33,8 @@
             "desc":"The ultimate iPad experience",
             "price":71900,
             "color":"#33505a",
-            "image":"https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipad/ipad/2021-ipad-pro-12-9-colors.png"
+            "image":"https://support.apple.com/library/content/dam/edam/applecare/images/en_US/ipad/ipad/2021-ipad-pro-12-9-colors.png",
+            "detail":"27.96 cm (11 inch) | Liquid Retina\n8GB RAM | 128GB ROM  iPadOS 14\nOcta-Core M1 Chip Processor\nR: 12MP + 10MP  F: 12MP"
         },
         {
             "id":5,
@@ -38,7 +42,8 @@
             "desc":"Powerful, Colourful, Wonderful.",
             "price":54900,
             "color":"#33505a",
-            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-air4-2020-01.jpg"
+            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-air4-2020-01.jpg",
+            "detail":"27.69 cm (10.9 inch) Liquid Retina Display\n8GB RAM | 256GB ROM | iPadOS 15\nApple, M1, Octa Core\nR: 12MP | F: 12MP"
         },
         {
             "id":6,
@@ -46,7 +51,8 @@
             "desc":"Delightfully capable, Suprisingly Affordable",
             "price":30900,
             "color":"#33505a",
-            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-102-2021-1.jpg"
+            "image":"https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-102-2021-1.jpg",
+            "detail":"25.91 cm (10.2 inch), Retina Display\n64GB ROM | iPadOS 15\nA13 Bionic Chip Hexa Core Processor\nR: 8MP | F:12MP"
         } 
     ]
 }
