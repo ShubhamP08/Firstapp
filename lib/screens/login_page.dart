@@ -1,5 +1,6 @@
 import 'package:first/Utils/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class loginpage extends StatefulWidget {
   const loginpage({Key? key}) : super(key: key);
@@ -29,6 +30,7 @@ class _loginpageState extends State<loginpage> {
   @override
   Widget build(BuildContext context) {
     return Material(
+      color: context.canvasColor,
         child: Form(
       key: _formkey,
       child: Column(
@@ -83,15 +85,15 @@ class _loginpageState extends State<loginpage> {
                   height: 40.0,
                 ),
                 Material(
-                  color: Colors.cyan,
-                  borderRadius: BorderRadius.circular(changeButton ? 50 : 10),
+                  color: context.theme.buttonColor,
+                  borderRadius: BorderRadius.circular(changeButton ? 50 : 20),
                   child: InkWell(
                     onTap: () => moveToHome(context),
                     child: AnimatedContainer(
                       duration: Duration(seconds: 1),
                       margin: EdgeInsets.all(20),
-                      width: changeButton ? 20 : 150,
-                      height: 20,
+                      width: changeButton ? 20 : 120,
+                      height: 25,
                       alignment: Alignment.center,
                       child: changeButton
                           ? Icon(

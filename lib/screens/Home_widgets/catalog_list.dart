@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:first/screens/homedetails_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +29,7 @@ class CatalogItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            catalog.name.text.lg.color(Mytheme.darkBluish).bold.make(),
+            catalog.name.text.lg.color(context.accentColor).bold.make(),
             catalog.desc.text.textStyle(context.captionStyle).make(),
             10.heightBox,
             ButtonBar(
@@ -38,14 +40,16 @@ class CatalogItem extends StatelessWidget {
                 ElevatedButton(
                     onPressed: () {},
                     style: ButtonStyle(
+                      // ignore: deprecated_member_use
+                      backgroundColor: MaterialStateProperty.all(context.theme.buttonColor) ,
                         shape: MaterialStateProperty.all(StadiumBorder())),
-                    child: "Buy".text.make())
+                    child: "Buy".text.white.make())
               ],
             ).pOnly(right: 8.0)
           ],
         ))
       ],
-    )).white.rounded.square(150).make().py16();
+    )).color(context.cardColor).rounded.square(150).make().py16();
   }
 }
 
